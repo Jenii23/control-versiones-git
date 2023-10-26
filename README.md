@@ -5,7 +5,7 @@
 ## INTRODUCCIÓN AL CONTROL DE VERSIONES Y GIT
 
 El control de versiones es la gestión de los diversos cambios que se realizan sobre los archivos, por lo tanto, de esta forma se obtiene un seguimiento en la evolución de un proyecto. Y Git Hub es una excelente palataforma de hospedaje para el control de estas versiones y colaboración en equipo.  
-### Conceptos fundamentales de Git  
+### CONCEPTOS FUNDAMENTALES DE GIT
 **commit:** obtiene los cambios que se han realizado en el proyecto del repositorio.  
 **branch (rama):**  es versión del trabajo que se esta desarrollando donde se trabaja de forma independiente sin afectar al proyecto principal del repositorio.  
 **head (puntero):**  puntero en la consola para indicar la rama actual a la que se esta apuntando o se realizaron los nuevos commits o cambios en el repositorio.  
@@ -88,8 +88,8 @@ Salida de consola ⬇︎
 
 Para salir de la ejecución de este comando se presiona **q**
 
-## TRABAJO EN EQUIPO CON GIT 
-
+## TRABAJO EN EQUIPO CON GIT   
+### FLUJO DE TRABAJO TÍPICO  
 ### ▪ git checkout  
 Es un comando utilizado para cambiar entre ramas, ingresando el comando y el nombre de la rama. Pero si se ingresa solo el comando sin ningún otro argumento, muestra un listado de todas las ramas existentes. Otra forma de utilizar este comando es para crear una nueva rama en el respositorio agregando después del comando **-b** y el nombre de nueva rama.
 
@@ -123,4 +123,22 @@ Salida de consola para eliminar una rama **git branch -d nombre_rama** ⬇︎
 ### ▪ git merge
 Este comando es utilizado para combinar dos ramas en las que se esten desarrollando diferentes versiones.  
 Primero se debe estar ubicado en la rama a la que se le va a agregar lo que contiene otra rama y ejecutar el comando seguido del nombre de la rama que se desea combinar. **git merge nombre_rama**.  
-Salida de consola ⬇︎   
+Salida de consola al combinar la rama main con la rama JenifferAlcivar/FuncionesPython ⬇︎   
+
+![Alt text](image-11.png)
+
+Por lo tanto, si se ejecuta el comando **git log** podremos ver que ya tenemos un merge de estas dos ramas.  
+
+![Alt text](image-12.png)
+
+### ETIQUETAS Y VERSIONADO SEMÁNTICO
+
+### ▪ git tag
+
+
+
+
+
+
+
+## GIT AVANZADO
