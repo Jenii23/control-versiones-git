@@ -7,3 +7,9 @@ print(f"La suma de los números en la lista es: {total}")
 numeros = {'a':2,'b':8,'c':5,'d':3,'e':11,'f':7,'g':9}
 total = sum(numeros.values())
 print(total) # Output: 45
+
+# Suma con ingreso de valores por el usuario
+n1 = input("¿Dime el primer número?")
+n2 = input("¿Dime el segundo número?")
+suma = int(n1) + int(n2)
+print("La suma de", n1, "y", n2, "es", suma)
