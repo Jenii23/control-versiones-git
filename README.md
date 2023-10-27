@@ -153,9 +153,18 @@ En cuanto al versionado semántico es una nomenclatura utilizada para nombrar la
 ### ▪ .gitinigore  
 Es un archivo de texto utilizado para especificar archivos que no deben ser rastreados o ingorados por el controlador de versiones. Para crear un archivo .gitignore, simplemente se crea un archivo llamado **.gitignore** en la raíz del repositorio y se agregan los patrones que se desean ignorar.
 
-![Alt text](image-15.png)
+![Alt text](image-15.png)  
 
+Posteriormente se verifica tener una carpeta donde se encuentre almacenado los archivos que solo se quieren mantener localmente y sean ignorados por git. Para este ejemplo se tiene la carpeta **/logs**  
 
+![Alt text](image-16.png)
 
+Ahora se ignora esta carpeta en el archivo **.gitignore**  indicando el nombre de la carpeta con un **/** para hacer referencia que se está indicando una carpeta. De esta forma todos los archivos que pertenezcan a esta carpeta seran ignorados.
+
+![Alt text](image-17.png)
+
+Pero si se trata de solo ignorar un archivo, basta con solo indicar el nombre del archivo con su extensión en una línea del **.gitignore**.
+
+![Alt text](image-18.png)
 
 ## GIT AVANZADO
