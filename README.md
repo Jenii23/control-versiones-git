@@ -230,7 +230,13 @@ Ahora al ejecutar git log se puede ver el nombre del commit modificado.
 Se realiza el mismo proceso para fusionar, eliminar y entre otras opciones que aparecen disponibles al ejecutar el **git rebase -i**.
 
 ### ▪ git stash  
-Este comando permite almacenar cambios locales temporalmente que no se desean hacerle commit en el repositorio git.
+Este comando permite almacenar cambios locales temporalmente. Es muy útil para esos cambios en los archivos que no se les quiere hacer un commit en el repositorio git.  
+Primero debe estar desarrollado lo que se quiere mantener localmente y ejecutar el comando. 
+
+![Alt text](image-32.png)  
+
+
+
 
 ### ▪ git cherry-pick
 
