@@ -198,6 +198,20 @@ Y este el log del main.
 
 Entonces hay que ubicarse en la rama donde se realizó el commit y posteriormente hacerle un rebase al main.
 
+![Alt text](image-24.png) 
+
+Se ejecuta git log nuevamente y se obtiene un nuevo resultado.
+
+![Alt text](image-25.png)
+
+Ahora tiene los commit de main mas el commit que había realizado en la rama.
+
+Entre los otros comandos de **git rebase** se encuentra el **git rebase -i**, utilizado para interectuar con los commits. Cuando se ejecuta este comando se obtiene un editor de texto del commit indicado al cual se le puede cambiar el orden, fusionarlo, eliminar, entre otras acciones.
+
+Para utilizar esta variante del git rebase, se debe indicar en la consola el comando seguido del id del commit.
+
+
+
 ### ▪ git stash
 
 ### ▪ git cherry-pick
