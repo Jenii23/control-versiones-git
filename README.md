@@ -270,4 +270,18 @@ Finalmente, tendremos ese commit pegado en otra rama.
 ### ▪ git revert
 Este comando permite deshacer los cambios que realizados en un commit. Pero en lugar de eliminar los commits, este comando crea un nuevo commit que revierte los cambios introducidos por los commits seleccionados.
 
+Primero se obtiene el id del commit que se va a revertir.
 
+![Alt text](image-39.png)
+
+Se ejecuta el comando.
+
+![Alt text](image-40.png)
+
+Se observa la ventana del revert indicando el commit  y los cambios existentes. 
+
+![Alt text](image-41.png) 
+
+Y finalmente se puede observar el resultado obtenido con el comando git log.
+
+![Alt text](image-42.png)
