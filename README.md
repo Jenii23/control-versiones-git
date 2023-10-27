@@ -167,4 +167,25 @@ Pero si se trata de solo ignorar un archivo, basta con solo indicar el nombre de
 
 ![Alt text](image-18.png)
 
-## GIT AVANZADO
+### HOKS DE GIT Y AUTOMATIZACIÓN DE TAREAS
+
+### ▪ hoks
+Son scripts que se ejecutan automaticamente cuando ocurre un evento en el repositorio git. Permiten una personalización del comportamiento interno de git y desencadenar acciones personalizadas. Los hooks se almacenan en el subdirectorio hooks del directorio, en **.git/hooks** siendo **.git** una carpeta que viene oculta en el repositorio.
+
+Para ver los hooks se accede primero a la carpeta oculta **.git** y dentro de ella se lista los archivos. 
+
+![Alt text](image-19.png)
+
+Dentro estará la carpeta **hooks** y posteriormente los hooks que se encuentran previamente almacenados.
+
+![Alt text](image-20.png)
+
+## GIT AVANZADO  
+### ▪ git rebase
+
+### ▪ git stash
+
+### ▪ git cherry-pick
+
+### ▪ git revert
+
