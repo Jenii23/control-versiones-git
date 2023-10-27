@@ -17,18 +17,21 @@ Empezamos accediendo a la carpeta donde utilizaremos git.
 ### ▪ git init
 Este comando es utilizado para iniciar un repositorio git en la carpeta.
 
-La salida de consola es -> Initialized empty Git repository in C:/Tareas de Maestria/.git/
+La salida de consola es ⬇︎  
+Initialized empty Git repository in C:/Tareas de Maestria/.git/
 
 
 ### ▪ git config --global user.name 
 Una vez inicializado el git se procede a realizar la configuración de git con este comando para el registro del usuario.
 
-Ingreso en la consola -> git config --global user.name "Jenii23"
+Ingreso en la consola ⬇︎  
+git config --global user.name "Jenii23"
 
 ### ▪ git config --global user.email
 Este comando también forma parte de la configuración, sirve para el registro del email del usuario.
 
-Ingreso en la consola -> git config --global user.email "jenifferal2397@hotmail.com"
+Ingreso en la consola ⬇︎   
+git config --global user.email "jenifferal2397@hotmail.com"
 
 ### ▪ git config --list
 Con este comando puedo revisar la configuración git que tengo registrada.
@@ -47,8 +50,8 @@ On branch master
 
 No commits yet
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+Untracked files:  
+  (use "git add < file >..." to include in what will be committed)   
         control-versiones-git/
 
 nothing added to commit but untracked files present (use "git add" to track)
@@ -91,9 +94,9 @@ Para salir de la ejecución de este comando se presiona **q**
 ## TRABAJO EN EQUIPO CON GIT   
 ### FLUJO DE TRABAJO TÍPICO  
 ### ▪ git checkout  
-Es un comando utilizado para cambiar entre ramas, ingresando el comando y el nombre de la rama. Pero si se ingresa solo el comando sin ningún otro argumento, muestra un listado de todas las ramas existentes. Otra forma de utilizar este comando es para crear una nueva rama en el respositorio agregando después del comando **-b** y el nombre de nueva rama.
+Es un comando utilizado para cambiar entre ramas, ingresando el comando y el nombre de la rama. Pero si se ingresa solo el comando sin ningún otro argumento, muestra la rama actual en la que se está ubicado. Otra forma de utilizar este comando es para crear una nueva rama en el respositorio agregando después del comando **-b** y el nombre de nueva rama.
 
-Salida de consola para listar las ramas con el comando **git checkout** ⬇︎
+Salida de consola para obtener la rama en la que se está ubicado con el comando **git checkout** ⬇︎
 
 ![Alt text](image-5.png)
 
@@ -134,8 +137,12 @@ Por lo tanto, si se ejecuta el comando **git log** podremos ver que ya tenemos u
 ### ETIQUETAS Y VERSIONADO SEMÁNTICO
 
 ### ▪ git tag
+Este comando sirve para crear, listar y eliminar etiquetas que permiten llevar un correcto versionamiento en la historia del repositorio. Extisten varias formas de utilizarlo, entre ellas está utilizar solo el comando **git tag** sin argumentos para obtener una lista de todas las etiquetas registradas. Para crear una nueva etiqueta se debe ingresar el comando **git tag nombre_etiqueta** seguido del nombre de la etiqueta. Por otra parte, si se desea eliminar una etiqueta, se ingresa el comando y se le agrega **-d** seguido del nombre de la etiqueta a eliminar.
 
+Salida de la consola para el comando de crear una nueva etiqueta **git tag nombre_etiqueta** y listar etiqeutas**git tag** ⬇︎  
+![Alt text](image-13.png)   
 
+Salida de consola para el comando eliminar etiqueta **git tag -d nombre_etiqueta**   
 
 
 
