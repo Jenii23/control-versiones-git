@@ -142,8 +142,18 @@ Este comando sirve para crear, listar y eliminar etiquetas que permiten llevar u
 Salida de la consola para el comando de crear una nueva etiqueta **git tag nombre_etiqueta** y listar etiqeutas**git tag** ⬇︎  
 ![Alt text](image-13.png)   
 
-Salida de consola para el comando eliminar etiqueta **git tag -d nombre_etiqueta**   
+Salida de consola para el comando eliminar etiqueta **git tag -d nombre_etiqueta**     
+![Alt text](image-14.png)
 
+En cuanto al versionado semántico es una nomenclatura utilizada para nombrar las versiones. Y el utilizado es X,Y, Z.   
+**X** -> Cuando se realizan modificaciones muy importantes.
+**Y** -> Se agregan nuevas caracteristicas al proyeccto.
+**Z** -> Cuando solo se relizan cambios menores.
+
+### ▪ .gitinigore  
+Es un archivo de texto utilizado para especificar archivos que no deben ser rastreados o ingorados por el controlador de versiones. Para crear un archivo .gitignore, simplemente se crea un archivo llamado **.gitignore** en la raíz del repositorio y se agregan los patrones que se desean ignorar.
+
+![Alt text](image-15.png)
 
 
 
