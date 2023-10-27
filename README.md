@@ -185,7 +185,12 @@ Dentro estará la carpeta **hooks** y posteriormente los hooks que se encuentran
 Este comando se utiliza para integrar cambios de una rama a otra, logrando así modificar la historia del proyecto. Si realizamos una comparación con merge, se puede decir que el git rebase si modifica el hisotrial. Es utilizado para lidiar con errores de push, cambiar la base de una rama y agrupar varios commits que esten relacionados con la misma funcion o corrección de errores.
 
 Se realiza un commit.  
+ 
 ![Alt text](image-21.png)
+
+Esto es lo que se obtiene en el log de esta rama.  
+
+![Alt text](image-22.png)
 
 
 ### ▪ git stash
