@@ -192,6 +192,11 @@ Esto es lo que se obtiene en el log de esta rama.
 
 ![Alt text](image-22.png)
 
+Y este el log del main.  
+ 
+![Alt text](image-23.png) 
+
+Entonces hay que ubicarse en la rama donde se realizó el commit y posteriormente hacerle un rebase al main.
 
 ### ▪ git stash
 
