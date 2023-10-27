@@ -250,7 +250,24 @@ Primero debe estar desarrollado lo que se quiere mantener localmente y ejecutar 
 ### ▪ git cherry-pick
 Este comando permite aplicar los cambios introducidos por uno o más commits a otra rama. Para utilizar este comando primero se debe cambiar a la rama destino y luego ejecutar el comando **git cherry-pick <commit>**, donde **<commit>** es el hash del commit que se quiere aplicar.
 
+Se realiza un commit en una rama. 
 
+![Alt text](image-35.png) 
 
+Se verifica el historial de commits con el git log y se copia el hash o id del commit que se va a utilizar. 
+
+![Alt text](image-36.png)  
+
+Hay que estar ubicado en la rama destino y se ejecuta el comando.  
+
+![Alt text](image-37.png)
+
+Finalmente, tendremos ese commit pegado en otra rama.
+
+![Alt text](image-38.png)
+
+ 
 ### ▪ git revert
+Este comando permite deshacer los cambios que realizados en un commit. Pero en lugar de eliminar los commits, este comando crea un nuevo commit que revierte los cambios introducidos por los commits seleccionados.
+
 
