@@ -208,11 +208,29 @@ Ahora tiene los commit de main mas el commit que había realizado en la rama.
 
 
 - **git rebase -i** Entre los otros comandos de **git rebase** se encuentra el **git rebase -i**, utilizado para interectuar con los commits. Cuando se ejecuta este comando se obtiene un editor de texto del commit indicado al cual se le puede cambiar el orden, fusionarlo, eliminar, entre otras acciones.   
-Para utilizar esta variante del git rebase, se debe indicar en la consola el comando seguido del id del commit. 
+Para utilizar esta variante del git rebase, se debe indicar en la consola el comando seguido del id del commit.  
+![Alt text](image-26.png)  
 
+A continuación, se abre un editor de texto en la consola del sistema.
 
+![Alt text](image-27.png)  
 
-### ▪ git stash
+Se obtiene el nombre del commit y los comandos que se pueden utilizar en él. En este caso edito el pick y le indico la **r** para editar el mensaje del commit y guardo.
+
+![Alt text](image-28.png)
+
+Ahora se tiene acceso a editar el mensaje, por lo tanto, se modifica y guarda.  
+
+![Alt text](image-29.png)  
+
+Ahora al ejecutar git log se puede ver el nombre del commit modificado.
+
+![Alt text](image-30.png)
+
+Se realiza el mismo proceso para fusionar, eliminar y entre otras opciones que aparecen disponibles al ejecutar el **git rebase -i**.
+
+### ▪ git stash  
+Este comando permite almacenar cambios locales temporalmente que no se desean hacerle commit en el repositorio git.
 
 ### ▪ git cherry-pick
 
