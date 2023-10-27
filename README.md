@@ -238,13 +238,8 @@ Primero debe estar desarrollado lo que se quiere mantener localmente y ejecutar 
 - **git stash list**: Para listar los stash almacenados, solo se debe ejeuctar el comando seguido de **list**.  
 ![Alt text](image-33.png)
 
-- **git stash pop**: Permite recuperar el último stash y aplicarlo a la rama actual.  
+- **git stash pop**: Permite recuperar el último stash y aplicarlo a la rama actual. 
 
-  ![Alt text](image-34.png) 
-
-- **git stash apply stash@{0}**: Permite aplicar los cambios del último stash guardado.
-
-- **git stash pop stash@{0}**: Permite recuperar el último stash y aplicarlo a la rama actual.
 
 
 ### ▪ git cherry-pick
