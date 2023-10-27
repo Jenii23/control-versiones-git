@@ -207,7 +207,7 @@ Se ejecuta git log nuevamente y se obtiene un nuevo resultado.
 Ahora tiene los commit de main mas el commit que había realizado en la rama.
 
 
-- **git rebase -i** Entre los otros comandos de **git rebase** se encuentra el **git rebase -i**, utilizado para interectuar con los commits. Cuando se ejecuta este comando se obtiene un editor de texto del commit indicado al cual se le puede cambiar el orden, fusionarlo, eliminar, entre otras acciones.   
+- **git rebase -i**: Entre los otros comandos de **git rebase** se encuentra el **git rebase -i**, utilizado para interectuar con los commits. Cuando se ejecuta este comando se obtiene un editor de texto del commit indicado al cual se le puede cambiar el orden, fusionarlo, eliminar, entre otras acciones.   
 Para utilizar esta variante del git rebase, se debe indicar en la consola el comando seguido del id del commit.  
 ![Alt text](image-26.png)  
 
@@ -235,6 +235,10 @@ Primero debe estar desarrollado lo que se quiere mantener localmente y ejecutar 
 
 ![Alt text](image-32.png)  
 
+- **git stash list**: Para listar los stash almacenados, solo se debe ejeuctar el comando seguido de **list**.  
+![Alt text](image-33.png)
+
+- **git stash pop**: Permite recuperar el último stash y aplicarlo a la rama actual. 
 
 
 
