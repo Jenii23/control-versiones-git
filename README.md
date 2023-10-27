@@ -61,13 +61,13 @@ Este comando es utilizado para agregar cambios realizados en los archivos.
 
 Las formas en las que mas se utiliza este comando es  como:
 
-**- git add .** -> es para agregar cambios realizados en el directorio de trabajo.  
-**- git add nombredelarchivo** -> es parar agregar al repositorio git un archivo en específico, por lo tando, se indica el comando y el nombre del archivo.  
+- **git add .** -> es para agregar cambios realizados en el directorio de trabajo.  
+- **git add nombredelarchivo** -> es parar agregar al repositorio git un archivo en específico, por lo tando, se indica el comando y el nombre del archivo.  
 
 ### ▪ git commit 
 Comando utilizado para registrar los cambios realizados en el repositorio. Sin embargo, los cambios deben ser previamente preparados con git add para posteriormente ser guardados con git commit. 
 
-**- git commit -m "descripción del cambio que se está subiendo."** -> Este comando con **-m** permite agregar una breve descripción del cambio que se esta realizando, debe ser lo suficientemente descriptivo para recordar qué cambios se realizaron.
+- **git commit -m "descripción del cambio que se está subiendo."** -> Este comando con **-m** permite agregar una breve descripción del cambio que se esta realizando, debe ser lo suficientemente descriptivo para recordar qué cambios se realizaron.
 
 Salida de consola ⬇︎  
 ![Alt text](image-3.png)
@@ -146,9 +146,9 @@ Salida de consola para el comando eliminar etiqueta **git tag -d nombre_etiqueta
 ![Alt text](image-14.png)
 
 En cuanto al versionado semántico es una nomenclatura utilizada para nombrar las versiones. Y el utilizado es X,Y, Z.   
-**X** -> Cuando se realizan modificaciones muy importantes.
-**Y** -> Se agregan nuevas caracteristicas al proyeccto.
-**Z** -> Cuando solo se relizan cambios menores.
+- **X** -> Cuando se realizan modificaciones muy importantes.
+- **Y** -> Se agregan nuevas caracteristicas al proyeccto.
+- **Z** -> Cuando solo se relizan cambios menores.
 
 ### ▪ .gitinigore  
 Es un archivo de texto utilizado para especificar archivos que no deben ser rastreados o ingorados por el controlador de versiones. Para crear un archivo .gitignore, simplemente se crea un archivo llamado **.gitignore** en la raíz del repositorio y se agregan los patrones que se desean ignorar.
@@ -167,9 +167,9 @@ Pero si se trata de solo ignorar un archivo, basta con solo indicar el nombre de
 
 ![Alt text](image-18.png)
 
-### HOKS DE GIT Y AUTOMATIZACIÓN DE TAREAS
+### HOOKS DE GIT Y AUTOMATIZACIÓN DE TAREAS
 
-### ▪ hoks
+### ▪ hooks
 Son scripts que se ejecutan automaticamente cuando ocurre un evento en el repositorio git. Permiten una personalización del comportamiento interno de git y desencadenar acciones personalizadas. Los hooks se almacenan en el subdirectorio hooks del directorio, en **.git/hooks** siendo **.git** una carpeta que viene oculta en el repositorio.
 
 Para ver los hooks se accede primero a la carpeta oculta **.git** y dentro de ella se lista los archivos. 
@@ -188,11 +188,11 @@ Se realiza un commit.
  
 ![Alt text](image-21.png)
 
-Esto es lo que se obtiene en el log de esta rama.  
+Se verifica el log de esta rama.  
 
 ![Alt text](image-22.png)
 
-Y este el log del main.  
+Y el log de la rama principal main.  
  
 ![Alt text](image-23.png) 
 
@@ -206,9 +206,9 @@ Se ejecuta git log nuevamente y se obtiene un nuevo resultado.
 
 Ahora tiene los commit de main mas el commit que había realizado en la rama.
 
-Entre los otros comandos de **git rebase** se encuentra el **git rebase -i**, utilizado para interectuar con los commits. Cuando se ejecuta este comando se obtiene un editor de texto del commit indicado al cual se le puede cambiar el orden, fusionarlo, eliminar, entre otras acciones.
 
-Para utilizar esta variante del git rebase, se debe indicar en la consola el comando seguido del id del commit.
+- **git rebase -i** Entre los otros comandos de **git rebase** se encuentra el **git rebase -i**, utilizado para interectuar con los commits. Cuando se ejecuta este comando se obtiene un editor de texto del commit indicado al cual se le puede cambiar el orden, fusionarlo, eliminar, entre otras acciones.   
+Para utilizar esta variante del git rebase, se debe indicar en la consola el comando seguido del id del commit. 
 
 
 
