@@ -182,6 +182,7 @@ Dentro estará la carpeta **hooks** y posteriormente los hooks que se encuentran
 
 ## GIT AVANZADO  
 ### ▪ git rebase
+Este comando se utiliza para integrar cambios de una rama a otra, logrando así modificar la historia del proyecto. Si realizamos una comparación con merge, se puede decir que el git rebase si modifica el hisotrial.
 
 ### ▪ git stash
 
