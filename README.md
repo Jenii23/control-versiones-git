@@ -6,10 +6,10 @@
 
 El control de versiones es la gestión de los diversos cambios que se realizan sobre los archivos, por lo tanto, de esta forma se obtiene un seguimiento en la evolución de un proyecto. Y Git Hub es una excelente palataforma de hospedaje para el control de estas versiones y colaboración en equipo.  
 ### CONCEPTOS FUNDAMENTALES DE GIT
-**commit:** obtiene los cambios que se han realizado en el proyecto del repositorio.  
-**branch (rama):**  es versión del trabajo que se esta desarrollando donde se trabaja de forma independiente sin afectar al proyecto principal del repositorio.  
-**head (puntero):**  puntero en la consola para indicar la rama actual a la que se esta apuntando o se realizaron los nuevos commits o cambios en el repositorio.  
-**staging area (índice):** es un espacio intermedio donde se pueden revisar y preparar los cambios que se han realizado.
+- **commit:** obtiene los cambios que se han realizado en el proyecto del repositorio.  
+- **branch (rama):**  es versión del trabajo que se esta desarrollando donde se trabaja de forma independiente sin afectar al proyecto principal del repositorio.  
+- **head (puntero):**  puntero en la consola para indicar la rama actual a la que se esta apuntando o se realizaron los nuevos commits o cambios en el repositorio.  
+- **staging area (índice):** es un espacio intermedio donde se pueden revisar y preparar los cambios que se han realizado.
 
 
 Empezamos accediendo a la carpeta donde utilizaremos git.
